@@ -1,14 +1,11 @@
 import express from "express";
 import cors from "cors";
-// import dotenv from "dotenv";
 import bodyParser from "body-parser";
 import { connectDB } from "./DB/Database.js";
 import transactionRoutes from "./Routers/Transactions.js";
 import userRoutes from "./Routers/userRouter.js";
 
-// dotenv.config();
-// const app = express();
-// const port = process.env.PORT || 4000;
+
 const app = express();
 const port = 4000;
 
