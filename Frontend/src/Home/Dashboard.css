@@ -1,0 +1,44 @@
+.dashboard-container {
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #3316ef, #8a2be2);
+  color: white;
+}
+
+.dashboard-header {
+  margin-bottom: 20px;
+}
+
+.dashboard-filters {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.dashboard-graph {
+  padding: 15px;
+  margin-bottom: 20px;
+  /* Ensure a fixed height so ResponsiveContainer can calculate dimensions */
+  height: 350px;
+}
+
+.chart-container {
+  width: 100%;
+  height: 100%;
+}
+
+.dashboard-table {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.fixed-logout {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 15px;
+}
+
+.dashboard-footer {
+  text-align: center;
+  margin-top: 20px;
+}
